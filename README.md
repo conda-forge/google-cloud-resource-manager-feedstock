@@ -5,9 +5,13 @@ Home: https://github.com/googleapis/python-resource-manager
 
 Package license: Apache-2.0
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/google-cloud-resource-manager-feedstock/blob/master/LICENSE.txt)
 
 Summary: Google Cloud Resource Manager API client library
+
+Development: https://github.com/googleapis/python-resource-manager
+
+Documentation: https://googleapis.dev/python/cloudresourcemanager/latest/index.html
 
 Google Cloud Resource Manager API provides methods that you can use to programmatically manage your projects in the Google Cloud Platform. You can create, list, update or delete projects within Google Cloud Platform.
 See the [quick start guide](https://googleapis.dev/python/cloudresourcemanager/latest/index.html#quick-start).
