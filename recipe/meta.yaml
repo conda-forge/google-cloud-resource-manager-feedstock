@@ -1,6 +1,6 @@
 {% set name = "google-cloud-resource-manager" %}
-{% set version = "0.30.3" %}
-{% set sha256 = "3577bbf38f2c7c2f42306b8dfdeffbb0eedf45aaec947fd513d51937f72046d1" %}
+{% set version = "1.0.1" %}
+{% set sha256 = "d48bd81f66559ae75d098424f3cc289aac575eff8dc8c066c6d20c80b0abc65d" %}
 
 package:
   name: {{ name|lower }}
