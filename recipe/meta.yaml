@@ -1,5 +1,5 @@
 {% set name = "google-cloud-resource-manager" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,10 +7,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-resource-manager-{{ version }}.tar.gz
-  sha256: 5393a84fc52c9b65c607ac9ad78bf32e7236c8ee38b6fb4a4833f40f9c513382
+  sha256: de525fc27b5de8975a537ff9318f1966e19cf224edd157e4ead54ff2858cb714
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
@@ -21,8 +21,9 @@ requirements:
   run:
     - python >=3.6
     - google-api-core-grpc >=1.31.5,<3.0.0dev,!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0
-    - grpc-google-iam-v1 >=0.12.3,<1.0.0dev
-    - proto-plus >=1.15.0
+    - grpc-google-iam-v1 >=0.12.4,<1.0.0dev
+    - proto-plus >=1.15.0,<2.0.0dev
+    - protobuf >=3.19.0,<4.0.0dev
 
 test:
   imports:
