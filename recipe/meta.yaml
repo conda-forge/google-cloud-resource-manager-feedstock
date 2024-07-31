@@ -1,13 +1,13 @@
 {% set name = "google-cloud-resource-manager" %}
-{% set version = "1.12.4" %}
+{% set version = "1.12.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/google-cloud-resource-manager-{{ version }}.tar.gz
-  sha256: 3eda914a925e92465ef80faaab7e0f7a9312d486dd4e123d2c76e04bac688ff0
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name.replace('-', '_') }}-{{ version }}.tar.gz
+  sha256: b7af4254401ed4efa3aba3a929cb3ddb803fa6baf91a78485e45583597de5891
 
 build:
   number: 0
