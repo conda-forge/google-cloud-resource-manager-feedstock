@@ -9,7 +9,7 @@ Package license: Apache-2.0
 
 Summary: Google Cloud Resource Manager API client library
 
-Development: https://github.com/googleapis/python-resource-manager
+Development: https://github.com/googleapis/google-cloud-python/tree/main/packages/google-cloud-resource-manager
 
 Documentation: https://googleapis.dev/python/cloudresourcemanager/latest/index.html
 
