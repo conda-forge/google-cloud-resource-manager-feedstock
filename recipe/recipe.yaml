@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: google-cloud-resource-manager
-  version: 1.16.0
+  version: "1.17.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/google_cloud_resource_manager-${{ version }}.tar.gz
-  sha256: cc938f87cc36c2672f062b1e541650629e0d954c405a4dac35ceedee70c267c3
+  sha256: 0f486b62e2c58ff992a3a50fa0f4a96eef7750aa6c971bb373398ccb91828660
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
